@@ -22,7 +22,7 @@ const handleIncrement=()=>{
     <div style={{height:'70vh'}} className='w-100 d-flex justify-content-center text-white align-items-center'>
         <div className='d-flex border rounded justify-content-center  align-items-center p-5 w-25 flex-column'>
            
-           <h1 style={{fontSize:'80px'}}>{count}</h1>
+           <h1 style={{fontSize:'80px'}} className='mt-5'>{count}</h1>
            <div className='w-100 d-flex justify-content-between mt-5 '>
             <button className='btn btn-warning' onClick={()=>dispatch(increment())}>Increment</button>
             <button className='btn btn-info ' onClick={()=>dispatch(decrement())}>Decrement</button>
